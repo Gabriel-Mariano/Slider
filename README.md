@@ -1,6 +1,6 @@
 # SlideShow 💻
 
-![preview-slider](https://github.com/Gabriel-Mariano/Slider/blob/master/slider.png)
+![preview-slider](https://github.com/Gabriel-Mariano/slider/blob/master/src/assets/preview.png)
 
 ## Visão Global
 
