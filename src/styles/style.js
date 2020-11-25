@@ -56,10 +56,10 @@ export const Controll = styled.button `
     border:none;
     cursor:pointer;
     &.active{
-        background-color: #F8F8F8;
+        background-color: rgba(0,102,161,0.9 );
     }
     &.noActive{
-        background-color: rgba(0,0,0,0.4 );
+        background-color: rgba(0,102,161,0.4 ); 
     }
 `;
 
@@ -72,8 +72,8 @@ export const Footer = styled.footer `
 `;
 
 export const Title = styled.h1 `
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
-    color:#1C1C1C;
+    font-family: Orator std;
+    color:#363636;
     margin: 5px auto;
 `;
 

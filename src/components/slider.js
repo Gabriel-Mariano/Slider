@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import {BsChevronLeft,BsChevronRight} from 'react-icons/bs'; 
 
 import back01 from '../assets/background01.jpg';
@@ -55,7 +55,8 @@ function Slide(){
         },6000);
         // Fazer limpeza do useEffect
         return () => clearInterval(interval);
-    },[imageCurrent])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[imageCurrent]);
 
     return(
         <>
